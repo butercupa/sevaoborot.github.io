@@ -52,6 +52,15 @@ header {
   justify-content: center;
   z-index: 5;
 }
+a {
+  color: #141414;
+  text-decoration: none;
+  font-family: "Open Sans:400", sans-serif;
+  font-size: 1rem;
+}
+a:hover h3 {
+  color: #2E025B;
+}
 .header_links {
   display: flex;
   width: 53.5rem;
@@ -214,9 +223,12 @@ header {
   row-gap: 1.6667vw;
   margin: 1.6667vw 5vw;
 }
-.projects .projects_pictures .projects_show img {
+.projects .projects_pictures .projects_show div {
+ height: 100%;
+}
+.projects .projects_pictures .projects_show div img {
   border-radius: 8px;
-  max-width: 100%;
+  max-width: 90%;
   height: 100%;
   object-fit: cover;
   z-index: 0;
